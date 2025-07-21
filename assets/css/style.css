@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Global CSS Start */
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    word-break: break-word;
+    background-color: #102b2a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+button,
+textarea,
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.py-6 {
+    padding: 3.75rem 0;
+}
+
+.pt-6 {
+    padding-top: 3.75rem;
+}
+
+.pb-6 {
+    padding-bottom: 3.75rem;
+}
+
+.py-7 {
+    padding: 4.375rem 0;
+}
+
+.pt-7 {
+    padding-top: 4.375rem;
+}
+
+.pb-7 {
+    padding-bottom: 4.375rem;
+}
+
+.py-8 {
+    padding: 5rem 0;
+}
+
+.pt-8 {
+    padding-top: 5rem;
+}
+
+.pb-8 {
+    padding-bottom: 5rem;
+}
+
+.py-10 {
+    padding: 6.25rem 0;
+}
+
+.pb-10 {
+    padding-bottom: 6.25rem;
+}
+
+.pt-10 {
+    padding-top: 6.25rem;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.m-0-auto {
+    margin: 0 auto
+}
+
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_center_contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_left_contain {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_left_cover {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_bottom_cover {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.h_100 {
+    height: 100%;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.bg-0-0 {
+    background-position: 0% 0%;
+}
+
+/* Global CSS End */
+
+/* Website Scrollbar CSS  */
+::-webkit-scrollbar {
+    width: 0.9375rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #102b2a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c09342;
+    border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c09342;
+}
+
+/* Website Scrollbar CSS  */
+
+/* Section Heading CSS Start */
+.section_heading {
+    color: #000;
+    font-size: 3rem;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+}
+
+span.theme {
+    color: #c09342;
+
+}
+
+
+.bg_dark {
+    background-color: #000;
+}
+
+.bg_light {
+    background-color: #f5f5f7;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.text_theme {
+    color: #c09342;
+}
+
+.text_dark {
+    color: #000000;
+}
+
+.aoshide {
+    overflow: hidden;
+}
+
+.fancy_heading_footer_outer {
+    width: 100%;
+    max-width: 62.5rem;
+    height: 2.5rem;
+    margin-top: 0.9375rem;
+}
+
+.fancy_heading_footer {
+    height: 100%;
+    width: 100%;
+}
+
+/* Section Heading CSS End */
+
+/* Button CSS Start */
+
+.butn {
+    padding: 0.625rem 1.5625rem;
+    font-weight: 400;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #ebbe00;
+    z-index: 1;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.1rem;
+    overflow: hidden;
+    letter-spacing: 1px;
+    border-radius: 1.875rem;
+}
+
+.butn::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    z-index: -1;
+    background: #ebbe00;
+    transition: all 0.3s ease;
+}
+
+.butn:hover {
+    color: #000;
+}
+
+.butn:hover:after {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+/* Button CSS End*/
+
+
+
+/* Header CSS Start */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 9999;
+    transition: all 0.3s ease-in-out;
+    padding: 0.9375rem 0px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand-container {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.brand-container a,
+.footer-logo a {
+    background-image: url(../images/logo.svg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.75rem;
+    width: 14.75rem;
+}
+
+.sticky-header.fixed_header .brand-container a {
+    background-image: url(../images/logo.svg)
+}
+
+.menu-toggle-btn {
+    display: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: right;
+    cursor: pointer;
+    margin: auto 0;
+    z-index: 60;
+    background-image: url("../images/menu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.navigation-menu {
+    display: flex;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-menu ul li a {
+    padding: 0.625rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    position: relative;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.navigation-menu ul li a:hover {
+    color: #c09342;
+}
+
+.navigation-menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.5px;
+    width: 100%;
+    background-color:#c09342;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-out;
+    border-radius: 5px;
+}
+.navigation-menu ul li a.active{
+    color: #c09342;
+}
+
+.navigation-menu ul li a.active::after,
+.navigation-menu ul li a:hover::after {
+    transform: scaleX(0.9);
+}
+
+
+.menu-close-btn {
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/close.png);
+}
+
+/* Header CSS End */
+
+/* Home Banner CSS Start */
+.home_banner_sec {
+    margin-top: 3.125rem;
+}
+.home_banner_img {
+    height: 100%;
+    border-radius: 1.875rem;
+}
+.home_banner_content {
+    padding: 4rem 0;
+}
+.home_banner_content h1 {
+    line-height: 1.4;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.home_banner_content h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.home_banner_content p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+/* Home Banner CSS End */
