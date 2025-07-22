@@ -335,7 +335,7 @@ span.theme {
 .butn:hover::after,
 .butn:hover::before {
     height: 50.625rem;
-    width: 50.625rem;
+    width: 50   .625rem;
 }
 
 /* Button CSS End*/
@@ -825,7 +825,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 14.375rem;
+    max-width: 10.375rem;
 }
 
 .social-icons li a {
