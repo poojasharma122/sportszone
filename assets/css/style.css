@@ -677,5 +677,28 @@ hr {
 .home_featured_img_outer:hover .common_overlay {
     transform: translate(-50%, -50%) scale(1);
 }
-
 /* Home Featured CSS End */
+
+
+/* Home Own Bar CSS Start */
+.home_own_sports_img_outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.home_own_sports_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home_own_sports_img {
+    height: 100%;
+    width: 100%;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* Home Own Bar CSS End */
