@@ -292,7 +292,7 @@ span.theme {
     border: none;
     text-align: center;
     background-color: #fff;
-    color:#102b2a;
+    color: #102b2a;
     font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -354,10 +354,12 @@ span.theme {
     transition: all 0.3s ease-in-out;
     padding: 0.9375rem 0px;
 }
-.sticky-header.fixed_header{
+
+.sticky-header.fixed_header {
     background-color: #102b2a;
     border-bottom: 1px solid rgba(192 147 66/50%);
 }
+
 .navigation-bar {
     display: flex;
     align-items: center;
@@ -430,13 +432,14 @@ span.theme {
     left: 0;
     height: 1.5px;
     width: 100%;
-    background-color:#c09342;
+    background-color: #c09342;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease-out;
     border-radius: 5px;
 }
-.navigation-menu ul li a.active{
+
+.navigation-menu ul li a.active {
     color: #c09342;
 }
 
@@ -460,41 +463,47 @@ span.theme {
 .home_banner_sec {
     margin-top: 3.125rem;
 }
+
 .home_banner_img {
     height: 100%;
     border-radius: 1.875rem;
 }
+
 .home_banner_content {
     padding: 4rem 0;
 }
+
 .home_banner_content h1 {
     line-height: 1.4;
     font-size: 2.5rem;
     font-weight: 500;
 }
+
 .home_banner_content h3 {
     font-size: 1.7rem;
     font-weight: 500;
 }
+
 .home_banner_content p {
     font-size: 1.1rem;
     font-weight: 500;
 }
+
 hr {
     color: #c09342;
     opacity: 0.5;
 }
+.underline {
+    position: relative;
+}
 .underline::after {
     content: '';
     position: absolute;
-    background: #fff;
-    height: 2px;
-    width: 10.25rem;
-    bottom: -13px;
+    background: linear-gradient(90deg, rgb(192, 147, 66) 0%, rgba(255, 255, 255, 0) 90%);
+    height: 3px;
+    width: 15.25rem;
+    bottom: -15px;
     left: 0;
-}
-.underline {
-    position: relative;
 }
 /* Home Banner CSS End */
 
@@ -510,11 +519,12 @@ hr {
     background: #282828;
     cursor: pointer;
     display: block;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #c09342
 }
+
 .home_explore_cards::after {
     content: "";
     position: absolute;
@@ -527,6 +537,7 @@ hr {
     border-radius: 1.875rem;
     transition: background-color 0.3s ease-in-out;
 }
+
 .home_explore_content {
     position: absolute;
     bottom: 0;
@@ -538,6 +549,7 @@ hr {
     padding: 20px;
     background: none;
 }
+
 .home_explore_content h4 {
     font-size: 2rem;
     font-weight: 500;
@@ -554,8 +566,9 @@ hr {
     font-size: 1rem;
     font-weight: 500;
 }
+
 .home_explore_cards:hover .home_explore_content {
-    background: linear-gradient(180deg, #c09342 ,#282828);
+    background: linear-gradient(180deg, #c09342, #282828);
     padding: 30px 20px;
 }
 
@@ -564,4 +577,48 @@ hr {
     opacity: 1;
     margin-top: 1rem;
 }
+
 /* Home Explore Section End */
+
+/* Home Why Us Card CSS Start */
+.home_why_cards {
+    position: relative;
+    height: 100%;
+    background: #1cc3b21c;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #c09342;
+}
+
+.home_why_us_img_outer {
+    border-radius: 20px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.home_why_us_img {
+    height: 100%;
+}
+
+.home_why_us_content {
+    padding: 20px 0;
+}
+
+.home_why_us_content h4 {
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: #c09342;
+}
+
+.home_why_us_content p {
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Home Why Us Card CSS End */
