@@ -292,13 +292,14 @@ span.theme {
     border: none;
     text-align: center;
     background-color: #fff;
-    color: #102b2a;
+    color: #091d1c;
     font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 1;
-    padding: 0.9375rem 1.1rem;
+    padding: 0.9375rem 1.875rem;
     overflow: hidden;
+    justify-content: center;
     align-items: center;
     border-radius: 1.875rem;
 }
@@ -314,7 +315,7 @@ span.theme {
     border-radius: 50%;
     z-index: -1;
     background-color: #c09342;
-    transition: 1s ease;
+    transition: 1.5s ease;
 }
 
 .butn::before {
@@ -323,8 +324,8 @@ span.theme {
 }
 
 .butn::after {
-    left: calc(100% + 2em);
-    top: calc(100% + 2em);
+    left: calc(100% + 4em);
+    top: calc(100% + 4em);
 }
 
 .butn:hover {
@@ -334,12 +335,11 @@ span.theme {
 
 .butn:hover::after,
 .butn:hover::before {
-    height: 50.625rem;
-    width: 50   .625rem;
+    height: 55.625rem;
+    width: 55.625rem;
 }
 
 /* Button CSS End*/
-
 
 
 /* Header CSS Start */
