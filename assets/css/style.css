@@ -354,7 +354,10 @@ span.theme {
     transition: all 0.3s ease-in-out;
     padding: 0.9375rem 0px;
 }
-
+.sticky-header.fixed_header{
+    background-color: #102b2a;
+    border-bottom: 1px solid rgba(192 147 66/50%);
+}
 .navigation-bar {
     display: flex;
     align-items: center;
@@ -376,10 +379,6 @@ span.theme {
     background-repeat: no-repeat;
     height: 3.75rem;
     width: 14.75rem;
-}
-
-.sticky-header.fixed_header .brand-container a {
-    background-image: url(../images/logo.svg)
 }
 
 .menu-toggle-btn {
@@ -511,6 +510,10 @@ hr {
     background: #282828;
     cursor: pointer;
     display: block;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #c09342
 }
 .home_explore_cards::after {
     content: "";
@@ -519,7 +522,7 @@ hr {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
     z-index: 2;
     border-radius: 1.875rem;
     transition: background-color 0.3s ease-in-out;
@@ -548,9 +551,11 @@ hr {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .home_explore_cards:hover .home_explore_content {
-    background: linear-gradient(to bottom, rgba(192, 147, 66,0.8)  , #fff);
+    background: linear-gradient(180deg, #c09342 ,#282828);
     padding: 30px 20px;
 }
 

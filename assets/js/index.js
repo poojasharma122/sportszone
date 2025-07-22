@@ -9,6 +9,16 @@ $(document).ready(function () {
 });
 // Toggle Menu Functionaliy End
 
+
+// Header Scroll JS Start
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var header = $("header");
+    header.toggleClass("fixed_header", $(window).scrollTop() > 0);
+  });
+});
+// Header Scroll JS End
+
 // AOS JS Start
 AOS.init({
   duration: 1200,
