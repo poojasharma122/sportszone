@@ -295,7 +295,7 @@ span.theme {
     color: #091d1c;
     font-size: 1.1rem;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 1;
     padding: 0.9375rem 1.875rem;
     overflow: hidden;
