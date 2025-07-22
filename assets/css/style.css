@@ -873,3 +873,33 @@ hr {
     line-height: 1.3;
 }
 /* footer end  */
+
+
+/* Bar Pages CSS Start */
+.sub_banner {
+    height: 35.875rem;
+    background-color: rgba(0 0 0/70%);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_wrap {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_content h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.4;
+    max-width: 40.625rem;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+
+/* Bar Pages CSS End */
