@@ -334,8 +334,8 @@ span.theme {
 
 .butn:hover::after,
 .butn:hover::before {
-    height: 25.625rem;
-    width: 25.625rem;
+    height: 50.625rem;
+    width: 50.625rem;
 }
 
 /* Button CSS End*/
@@ -707,6 +707,45 @@ hr {
     gap: 20px;
 }
 /* Home Own Bar CSS End */
+
+
+/* Newsletter CSS Start */
+.newsletter-section .row {
+    max-width: 43rem;
+}
+
+.newsletter-wrap input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c09342;
+    padding: 0.6235rem;
+    color: #fff;
+}
+
+.newsletter-wrap input::placeholder {
+    color: #c09342;
+    opacity: 1;
+}
+.newsletter-wrap input:focus {
+    border-bottom: 1px solid #fff; 
+}
+
+.newsletter-wrap input::-ms-input-placeholder {
+    color: #c09342;
+}
+
+.newsletter-wrap p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.newsletter-wrap h3 {
+    line-height: 1.3;
+}
+
+/* Newsletter CSS End */
 
 
 /* footer start  */
