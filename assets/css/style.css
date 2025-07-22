@@ -356,8 +356,7 @@ span.theme {
 }
 
 .sticky-header.fixed_header {
-    background-color: #102b2a;
-    border-bottom: 1px solid rgba(192 147 66/50%);
+    background-color: #091d1c;
 }
 
 .navigation-bar {
@@ -492,6 +491,7 @@ span.theme {
 hr {
     color: #c09342;
     opacity: 0.5;
+    margin: 0;
 }
 .underline {
     position: relative;
@@ -751,6 +751,7 @@ hr {
 /* footer start  */
 .site-footer {
     color: #fff;
+    background: #091d1c;
 }
 
 .footer-logo p {
