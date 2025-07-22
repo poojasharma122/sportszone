@@ -73,6 +73,9 @@
     .footer-links, .footer-contact {
         padding-left: 1.75rem;
     }
+    .footer-top h4 {
+        font-size: 1.6rem;
+    }
 
 }
 
@@ -120,7 +123,14 @@
             "links"
             "contact";
     }
- 
+
+    .brand-container a, .footer-logo a {
+        width: 12.75rem;
+    }
+    .footer-links, .footer-contact {
+        border-top: 1px solid rgb(192 147 66/30%);
+        padding-top: 1.25rem;
+    }
 }
 
 @media screen and (max-width:480px) {
