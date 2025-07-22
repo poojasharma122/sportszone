@@ -782,11 +782,11 @@ hr {
 .footer-links {
     padding-left: 3.75rem;
     border-left: 1px solid rgba(192 147 66/50%);
-    border-right: 1px solid rgba(192 147 66/50%);
 }
 
 .footer-contact {
     padding-left: 3.125rem;
+    border-left: 1px solid rgba(192 147 66/50%);
 }
 .footer-links li a,
 .footer-contact li {
