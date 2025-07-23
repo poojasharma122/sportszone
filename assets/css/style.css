@@ -1245,8 +1245,10 @@ hr {
     background-blend-mode: multiply;
     overflow: hidden;
 }
-.blog_image_txt h1{
+.blog_image_txt h1 {
     color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
 .blog_desc_grps p {
     color: #fff;
