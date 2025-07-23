@@ -1122,7 +1122,6 @@ hr {
     margin: 0 auto;
     position: relative;
     z-index: 99;
-    padding:0 1.875rem;
 }
 
 .footer-pages-content-grp {
@@ -1153,7 +1152,7 @@ hr {
 
 .footer-pages-content-grp ul {
     list-style: none;
-    padding-left: 3.25rem;
+    padding-left: 2.25rem;
 }
 
 .footer-pages-content-grp ul li {
