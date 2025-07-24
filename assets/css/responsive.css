@@ -88,6 +88,15 @@
     .home_featured_img_outer {
         height: 23rem;
     }
+    .bar_card_img_outer {
+           margin-bottom: 1.875rem;
+    }
+    .bar_card_content a h3 {
+        font-size: 1.6rem;
+    }
+    .section_heading {
+        font-size: 2.5rem;
+    }
 
 }
 
@@ -131,9 +140,6 @@
     .home_banner_content h1 {
         font-size: 2.2rem;
     }
-    .section_heading {
-        font-size: 2.5rem;
-    }
     .home_explore_content h4 {
         font-size: 1.7rem;
     }
@@ -146,6 +152,15 @@
     .home_featured_img_outer {
         height: 20rem;
     }
+    .banner_content h1 {
+        font-size: 2.5rem;
+    }
+    .sub_banner {
+        height: 30.875rem;
+    }
+    .bar_card_img_outer {
+        height: 20rem;
+      }
 }
 
 
@@ -191,6 +206,15 @@
         padding-top: 2rem!important;
         padding-bottom: 2rem!important;
     }
+    .banner_content h1 {
+        font-size: 2.2rem;
+    }
+    .sub_banner {
+        height: 26.875rem;
+    }
+    .underline::after {
+        bottom: -5px;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -234,5 +258,11 @@
     }
     .banner_content h1 {
         font-size: 1.8rem;
+    }
+    .sub_banner {
+        height: 22.875rem;
+    }
+    .bar_card_img_outer {
+        height: 17rem;
     }
 }
