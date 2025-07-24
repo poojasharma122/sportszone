@@ -253,9 +253,11 @@ img {
 
 span.theme {
     color: #c09342;
-
 }
 
+.bold {
+    font-weight: 600;
+}
 
 .bg_dark {
     background-color: #000;
@@ -302,7 +304,7 @@ span.theme {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    border-radius: 1.875rem;
+    border-radius: 4.875rem;
 }
 
 .butn::after,
@@ -550,8 +552,9 @@ hr {
     z-index: 5;
     transition: all 0.3s ease-in-out;
     color: #fff;
-    padding: 20px;
-    background: none;
+    padding: 1.25rem;
+    background: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
 }
 
 .home_explore_content h4 {
@@ -573,11 +576,11 @@ hr {
 
 .home_explore_cards:hover .home_explore_content {
     background: linear-gradient(180deg, #c09342, #282828);
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
 }
 
 .home_explore_cards:hover .home_explore_content p {
-    max-height: 200px;
+    max-height: 12.5rem;
     opacity: 1;
     margin-top: 1rem;
 }
@@ -590,14 +593,18 @@ hr {
     position: relative;
     height: 100%;
     background: #1cc3b21c;
-    border-radius: 30px;
-    padding: 20px;
+    border-radius: 1.875rem;
+    padding: 1.25rem;
     border: 1px solid #c09342;
 }
 
+.home_why_us_wrap>p {
+    font-size: 1.2rem;
+}
+
 .home_why_us_img_outer {
-    border-radius: 20px;
-    height: 300px;
+    border-radius: 1.25rem;
+    height: 18.75rem;
     overflow: hidden;
     position: relative;
 }
@@ -631,7 +638,7 @@ hr {
 }
 
 .home_why_us_content {
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 .home_why_us_content h4 {
@@ -696,7 +703,7 @@ hr {
 
 /* Home Own Bar CSS Start */
 .home_own_sports_img_outer {
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     overflow: hidden;
 }
@@ -726,7 +733,7 @@ hr {
 
 .own_sports_btn_box {
     display: inline-flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 /* Home Own Bar CSS End */
@@ -795,7 +802,7 @@ hr {
 .footer-top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 0.9375rem;
 }
 
 .footer-top h5 {
@@ -966,15 +973,15 @@ hr {
 
 .bar_location svg {
     fill: #fff;
-    height: 15px;
-    width: 15px;
+    height: 0.9375rem;
+    width: 0.9375rem;
 }
 
 .bar_features {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1.25rem;
-    gap: 10px;
+    gap: 0.625rem;
     width: max-content;
 }
 
@@ -1026,7 +1033,7 @@ hr {
 }
 
 .blog_cards_wrap {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -1066,8 +1073,8 @@ hr {
 
 .blog_card_butn svg {
     fill: #102b2a;
-    height: 25px;
-    width: 25px;
+    height: 1.5625rem;
+    width: 1.5625rem;
     transition: all 0.3s ease-in-out;
     background: #fff;
     margin-left: 0.625rem;
@@ -1089,8 +1096,8 @@ hr {
 .contact_page_form form {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
-    max-width: 600px;
+    grid-gap: 1.25rem;
+    max-width: 37.5rem;
 }
 
 .contact_page_form form .form-group:last-of-type {
@@ -1103,19 +1110,19 @@ hr {
 
 .contact_page_form h2 {
     font-size: 1.875rem;
-    margin: 0 0 15px;
+    margin: 0 0 0.9375rem;
     color: #bb9457;
 }
 
 .contact_page_form p {
-    margin: 0 0 40px;
+    margin: 0 0 2.5rem;
 }
 
 .contact_page_form form input,
 .contact_page_form form textarea {
     width: 100%;
     border: 1px solid #eee;
-    padding: 15px;
+    padding: 0.9375rem;
     color: #222222;
     border-radius: 1.25rem;
     font-weight: 600;
@@ -1127,8 +1134,8 @@ hr {
 
 .contact_page_content_info h3 svg,
 .contact_page_form h3 svg {
-    height: 30px;
-    width: 30px;
+    height: 1.875rem;
+    width: 1.875rem;
     fill: #bb9457;
 }
 
@@ -1215,12 +1222,12 @@ hr {
 
 /* Blog Description CSS Start */
 .blog_description_wrap {
-    max-width: 1200px;
+    max-width: 75rem;
 
 }
 
 .block_image_wrap {
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     display: flex;
     align-items: flex-end;
