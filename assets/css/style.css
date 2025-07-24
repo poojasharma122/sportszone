@@ -608,11 +608,6 @@ hr {
     overflow: hidden;
     position: relative;
 }
-
-.home_why_us_img_outer:hover .common_overlay {
-    transform: translate(-50%, -50%) scale(1);
-}
-
 .common_overlay {
     position: absolute;
     top: 50%;
@@ -632,7 +627,9 @@ hr {
     transition: transform 0.5s ease;
     transform-origin: center;
 }
-
+.home_why_us_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
 .home_why_us_img {
     height: 100%;
 }
@@ -1023,6 +1020,9 @@ hr {
     width: 100%;
     position: relative;
     overflow: hidden;
+}
+.blog_card_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);  
 }
 
 .blog_card_img {
