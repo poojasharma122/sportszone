@@ -958,19 +958,23 @@ hr {
 .bar_card_content p {
     color: #fff;
     font-weight: 500;
-    border: 1px solid #c09342;
-    width: max-content;
     padding: 0.5rem 0.75rem;
-    border-radius: 1.875rem;
-}
 
+}
+.bar_location {
+    border: 1px  solid #fff;
+    border-radius: 1.875rem;
+    display: inline-block;
+    margin-top: 0.625rem;
+}
 .bar_card_content {
     padding: 1.25rem 0;
     border-top: 1px solid rgb(192 147 66/50%);
     border-bottom: 1px solid rgb(192 147 66/50%);
-    width: max-content;
 }
-
+.bar_card_content a:first-child {
+    display: block;
+}
 .bar_location svg {
     fill: #fff;
     height: 0.9375rem;
@@ -982,11 +986,9 @@ hr {
     flex-wrap: wrap;
     margin-bottom: 1.25rem;
     gap: 0.625rem;
-    width: max-content;
 }
 
-.bar_features span {
-    display: inline-block;
+.bar_features p {
     color: #fff;
     border-radius: 1.875rem;
     text-transform: capitalize;
@@ -995,6 +997,7 @@ hr {
     letter-spacing: 1px;
     max-width: 45.25rem;
     line-height: 1.6;
+    word-break: break-word;
 }
 
 .bars_bonus_pick .bar_card_content {
