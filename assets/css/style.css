@@ -945,10 +945,12 @@ hr {
     width: 100%;
     border-radius: 1.875rem;
     overflow: hidden;
+    position: relative;
 }
 .bar_card_img_outer:hover .common_overlay {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);  
 }
+
 .bar_card_img {
     height: 100%;
     width: 100%;
