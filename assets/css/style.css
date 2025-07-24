@@ -225,7 +225,7 @@ img {
 
 /* Website Scrollbar CSS  */
 ::-webkit-scrollbar {
-    width: 0.9375rem;
+    width: 0.625rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -583,6 +583,7 @@ hr {
 }
 
 /* Home Explore Section End */
+
 
 /* Home Why Us Card CSS Start */
 .home_why_cards {
@@ -1245,39 +1246,45 @@ hr {
     background-blend-mode: multiply;
     overflow: hidden;
 }
+
 .blog_image_txt h1 {
-    position: relative; 
-    display: inline-block; 
+    position: relative;
+    display: inline-block;
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
     font-size: 1.8rem;
 }
+
 .blog_image_txt h1::after {
     content: '';
     position: absolute;
-    width: 0; 
+    width: 0;
     height: 2px;
     display: block;
-    margin-top: 5px; 
+    margin-top: 5px;
     background: white;
-    transition: width 0.3s ease-in-out; 
-    left: 0; 
-    bottom: -8px; 
+    transition: width 0.3s ease-in-out;
+    left: 0;
+    bottom: -8px;
 }
 
 .block_image_wrap:hover .blog_image_txt h1::after {
-    width: 100%;  
+    width: 100%;
 }
+
 .blog_desc_grps p {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
 }
+
 .blog_desc_grps ul li {
     margin-left: 2.25rem;
     list-style-type: disc;
 }
+
 .blog_desc_grps ul li::marker {
     color: #fff;
 }
+
 /* Blog Description CSS End */
