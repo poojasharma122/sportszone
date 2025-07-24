@@ -1144,7 +1144,9 @@ hr {
 .contact_page_content_info h3 {
     margin-bottom: 2.5rem;
 }
-
+.contact_form_btn {
+    border-radius: 1.25rem;
+}
 /* Contact CSS End */
 
 
