@@ -212,8 +212,11 @@
     .sub_banner {
         height: 26.875rem;
     }
-    .underline::after {
-        bottom: -5px;
+    .home_why_cards {
+        padding: 1rem;
+    }
+    .bar_cards {
+        margin-bottom: 2.75rem;
     }
 }
 
