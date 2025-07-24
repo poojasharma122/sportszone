@@ -194,6 +194,9 @@
     .blog_cards_btn_wrap {
         text-align: left;
     }
+    .blog_image_txt h1 {
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -273,6 +276,9 @@
     .pb-5 {
         padding-bottom: 2rem !important;
     }
+    .blog_image_txt h1 {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -348,5 +354,8 @@
     .contact_page_content_info h3 svg, .contact_page_form h3 svg {
         height: 1.5rem;
         width: 1.5rem;
+    }
+    .blog_image_txt h1 {
+        font-size: 1.2rem;
     }
 }
